@@ -10,11 +10,11 @@ public class OOPSBasics {
   
     static void get() { 
         System.out.println("Employee name is: " +Employee_name ); 
-        System.out.println("Employee CTC is: " + Employee_salary); 
+        System.out.println("Employee Total Compensation is: " + Employee_salary); 
     } 
   
     public static void main(String args[]) { 
-        GFG.set("Rathod Avinash", 10000.0f); 
-        GFG.get(); 
+        OOPSBasics.set("Pram", 10000); 
+        OOPSBasics.get(); 
     } 
 } 
